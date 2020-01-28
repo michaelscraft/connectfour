@@ -105,10 +105,10 @@ const handleClick = (evt) => {
 
   placeInTable(y, x);
   // check for win
-  if (checkForWin()) endGame(`Player ${currPlayer} won!👀`);
+  if (checkForWin()) endGame(`Player ${currPlayer} won!`);
 
   // check for tie
-  if (checkForTie()) endGame('Its a tie 🤯');
+  if (checkForTie()) endGame('Its a tie');
 
   // switch players
   if (currPlayer === 1) {
